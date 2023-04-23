@@ -11,7 +11,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "I've Been Tired",
-    description: "welcome to my blog",
+    description: "Welcome to my blog",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
