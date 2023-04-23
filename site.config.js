@@ -8,6 +8,7 @@ const CONFIG = {
     email: "scott@henderson.fyi", 
     linkedin: "https://www.linkedin.com/in/scott-henderson-07003820/",
     github: "toblaronesh"
+    projects:"https://www.henderson.fyi/",
   },
   // blog setting (required)
   blog: {
