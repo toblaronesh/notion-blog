@@ -3,10 +3,10 @@ const CONFIG = {
   profile: {
     name: "Scott Henderson",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "Growth",
-    bio: "Very few decisions are irreversible",
+    role: "Growth and stuff",
+    bio: "Unable to do two things at the same time",
     email: "scott@henderson.fyi", 
-    linkedin: "https://www.linkedin.com/in/scott-henderson-07003820/",
+    linkedin: "scott-henderson-07003820/",
     github: "toblaronesh"
   },
   projects: [
