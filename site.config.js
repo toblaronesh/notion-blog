@@ -4,12 +4,17 @@ const CONFIG = {
     name: "Scott Henderson",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Growth",
-    bio: "I believe that very few decisions are irreversible",
+    bio: "Very few decisions are irreversible",
     email: "scott@henderson.fyi", 
     linkedin: "https://www.linkedin.com/in/scott-henderson-07003820/",
     github: "toblaronesh"
-    projects:"https://www.henderson.fyi/",
   },
+  projects: [
+    {
+      name: `My Stuff`,
+      href: "https://www.henderson.fyi/services/",
+    },
+  ],
   // blog setting (required)
   blog: {
     title: "I've Been Tired",
