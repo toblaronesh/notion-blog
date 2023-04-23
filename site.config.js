@@ -5,7 +5,7 @@ const CONFIG = {
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Growth",
     bio: "I believe that very few decisions are irreversible",
-    email: "scott@henderson.fyi,
+    email: "scott@henderson.fyi", 
     linkedin: "https://www.linkedin.com/in/scott-henderson-07003820/",
   },
   // blog setting (required)
