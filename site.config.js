@@ -7,6 +7,7 @@ const CONFIG = {
     bio: "I believe that very few decisions are irreversible",
     email: "scott@henderson.fyi", 
     linkedin: "https://www.linkedin.com/in/scott-henderson-07003820/",
+    github: "toblaronesh"
   },
   // blog setting (required)
   blog: {
