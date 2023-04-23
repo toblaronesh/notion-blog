@@ -23,17 +23,6 @@ const ContactCard: React.FC = () => {
             <div className="text-sm">github</div>
           </a>
         )}
-        {CONFIG.profile.instagram && (
-          <a
-            href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
-            rel="noreferrer"
-            target="_blank"
-            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
-          >
-            <AiOutlineInstagram className="text-2xl" />
-            <div className="text-sm">instagram</div>
-          </a>
-        )}
         {CONFIG.profile.email && (
           <a
             href={`mailto:${CONFIG.profile.email}`}
