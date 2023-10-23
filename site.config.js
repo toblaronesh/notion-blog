@@ -48,10 +48,6 @@ const CONFIG = {
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
-  gtm: {
-    config: {
-      tagid: 'GTM-K55SWF47',
-    },
   },
   utterances: {
     enable: true,
