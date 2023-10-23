@@ -23,9 +23,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
   const getLayout = Component.getLayout || ((page) => page)
   useThemeEffect()
   useGtagEffect()
-  useEffect(() => {
-    TagManager.initialize({ gtmId: 'GTM-K55SWF47' });
-
+ 
   return (
     <>
       <Scripts />
