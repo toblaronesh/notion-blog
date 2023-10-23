@@ -50,7 +50,7 @@ const CONFIG = {
     },
   gtm: {
     config: {
-      tagid: GTM-K55SWF47 || "",
+      tagid: 'GTM-K55SWF47',
     },
   },
   utterances: {
