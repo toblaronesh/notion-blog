@@ -9,7 +9,9 @@ import Scripts from '@components/Scripts'
 import { NextPage } from 'next'
 import { ReactElement, ReactNode } from 'react'
 import { AppProps } from 'next/app'
-
+import TagManager from 'react-gtm-module'
+const tagManagerArgs = {gtmId: 'GTM-K55SWF47'}
+TagManager.initialize(tagManagerArgs)
 export type NextPageWithLayout<PageProps = {}> = NextPage<PageProps> & {
   getLayout?: (page: ReactElement) => ReactNode
 }
